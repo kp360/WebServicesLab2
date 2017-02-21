@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="knaph.uw.tacoma.edu.webserviceslab2.CourseAddFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/course_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/course_id_hint"/>
+    <EditText
+        android:id="@+id/s_desc_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/course_short_desc_hint"/>
+    <EditText
+        android:id="@+id/l_desc_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/course_long_desc_hint"/>
+    <EditText
+        android:id="@+id/prereqs_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/course_prereqs_hint"/>
+    <Button
+        android:id="@+id/add_course_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="@string/add_course_text"
+        android:onClick="addCourse"/>
+
+
+</LinearLayout>
